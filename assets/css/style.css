@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 192, 203);
+}
+
+main {
+    text-align: left;
+    padding: 5%;
+}
+
+section {
+    text-align: center;
+}
+
+img {
+    display: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+header {
+    background: rgb(167, 215, 243);
+    color: rgb(37, 37, 37);
+}
+
+header::after {
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 0;
+    padding-top: 0;
+}
+
+nav a {
+    color:rgb(37, 37, 37);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color:rgb(255, 192, 203)
+}
+
+
+.aboutme{
+    margin: 5px;
+    height: 10;
+}
+
+.pic1:hover {
+    transform: scale(2);
+}
+
+
+.boxx:hover {
+    transform: scale(2);
+}
+
+.boxes:hover {
+    transform: scale(2);
+}
+
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(167, 215, 243);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.contact {
+    text-align: justify;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    color:rgb(37, 37, 37)
+}
+
+.contact p {
+    text-decoration: underline;
+}
+
+.linkedin {
+    text-align: right;
+    justify-content: space-evenly;
+    color:rgb(37, 37, 37)
+}
+
+.github {
+    text-align: right;
+    justify-content: space-evenly;
+    color:rgb(37, 37, 37)
+}
+
+@media screen (min-width:768px) and (max-width:992px) {
+    header {
+        background:rgb(255, 192, 203)
+    }
+}
+
+@media screen (min-width:768px) and (max-width:992px) {
+    body {
+        background:rgb(167, 215, 243)
+    }
+}
+
+@media screen (min-width:768px) and (max-width:992px) {
+    footer {
+        background:rgb(255, 192, 203)
+    }
+}
