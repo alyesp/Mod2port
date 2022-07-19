@@ -19,3 +19,4 @@ In this weeks activity, we were asked to create a HTML/CSS file from scratch.
 ![myscreenshot](./assets/images/portfolio.png)
 
 <h3>Link to deployed website:</h3>
+https://alyesp.github.io/Mod2port/
